@@ -1,7 +1,7 @@
 import '../blocks/banner/banner.css';
 import decorate from '../blocks/banner/banner.js';
 import '../styles/styles.css';
-import BannerPng1 from './png/carousel1.png';
+import BannerPng1 from './png/banner.png';
 
 
 export default {
