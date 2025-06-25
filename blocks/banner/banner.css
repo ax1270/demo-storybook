@@ -137,7 +137,7 @@
 }
 
 .button-container a {
-  background-color: brown;
+  background-color: brown !important;
   border-radius: 0 !important;
 }
 
