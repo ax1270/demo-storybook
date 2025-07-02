@@ -9,7 +9,8 @@
     "lint": "npm run lint:js && npm run lint:css",
     "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=<token>"
   },
   "repository": {
     "type": "git",
@@ -45,5 +46,6 @@
     "webpack-dev-middleware": "^5.3.4",
     "braces": "^3.0.3",
     "micromatch": "^4.0.8"
-  }
+  },
+  "chromatic": "chromatic --project-token <token>"
 }
